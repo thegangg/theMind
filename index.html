@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="script" href="script.js" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet"
+              href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <title>ProjectX</title>
+    </head>
+    <body>
+
+        <!-- navbar -->
+        <section id="title-bar">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light py-4 fixed-top">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="#" style="font-size: 3rem;">ProjectX</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                          aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          <a class="nav-link" href="#">About</a>
+                          <a class="nav-link" href="#">Services</a>
+                      </div>
+                  </div>
+
+                  <!-- search bar, login button inside the navbar -->
+
+                  <div class="search-bar">
+                      <form class="d-flex" role="search">   
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-dark" type="submit">Search</button>
+                          </form>
+                  </div>
+                  <a class="nav-link" href="login.html"><i class="lar la-user fa-2x"></i>Login</a>
+              </div>
+          </nav>  
+      </section> 
+
+      <!-- image inside another image (check css)-->
+
+      <section class="bg-img">
+            <img src="public/images/sea1.png" alt="sea img" width="100%" height="100%" class="sea_img"/>
+            <div class="blue_mermaid">
+                <img src="public/images/mermaid_blue.png" alt="green mermaid" class="blue_mermaid" height="150px" width="140px">
+            </div>
+      </section>
+
+      <!-- services provided -->
+
+      <section id="services-body">
+        <h1 class="services-title">SERVICES</h1>
+        <div class="row">
+        <div class="card col-lg-3">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+            </div>
+          </div>
+        <div class="card col-lg-3">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+            </div>
+          </div>
+        <div class="card col-lg-3">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+            </div>
+          </div>
+        <div class="card col-lg-3">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+        <a href="mailto: projectX@gmail.com" id="icon-link-env"><i class="las la-envelope fa-2x"></i></a>
+        <a href="www.instagram.com" id="icon-link-ig"><i class="lab la-instagram fa-2x"></i></a>
+        <a href="www.twitter.com" id="icon-link-twt"><i class="lab la-twitter fa-2x"></i></a>
+        <a href="www.linkedin.com" id="icon-link-linkd"><i class="lab la-linkedin fa-2x"></i></a>
+        <a href="www.reddit.com" id="icon-link-red"><i class="lab la-reddit fa-2x"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=888888888" id="icon-link-wtsp"><i class="lab la-whatsapp fa-2x"></i></a>
+        <p id="copy">© Copyright ProjectX Inc</p>
+      </footer>
+</html>

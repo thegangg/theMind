@@ -1,0 +1,65 @@
+.bg-img {
+    background-image: url(public/images/mermaid_blue.png);
+    position: relative;
+}
+
+/* .blueM{
+    
+    top:0;
+    left:0;
+} */
+
+.sea_img {
+    position: relative;
+}
+
+.blue_mermaid {
+    position: absolute;
+    top: 52%;
+    left: 30%;
+}
+
+#footer {
+    padding: 6% 9%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.services-title{
+    padding-top: 70px; 
+    text-align: center;
+    padding-bottom:40px;
+}
+
+i{
+    padding-right: 10px;
+    text-align: center
+}
+
+#copy{
+    padding-top: 40px;
+}
+
+#icon-link-env{
+    color: #5C5470;
+}
+#icon-link-ig{
+    color: #FA2FB5;
+}
+#icon-link-linkd{
+    color: #3f729b;
+}
+#icon-link-wtsp{
+    color: #2BB741;
+}
+#icon-link-red{
+    color: #EB1D36;
+}
+
+footer{
+    background-color: #FFE3D8;
+}
